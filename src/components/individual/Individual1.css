@@ -1,0 +1,49 @@
+.individual1 {
+    background-color: white;
+    padding: 5rem 0;
+}
+
+.individual1-header h1{
+    font-size: 2rem;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+
+.individual1-flex {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.individual1-icon {
+    width: 200px;
+}
+
+.individual1-icon img {
+    width: 100%;
+}
+
+.individual-caption {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.individual-caption h1 {
+    padding: 1rem 0;
+}
+
+@media screen and (max-width:940px) {
+    .individual-caption {
+        width: 90%;
+        padding: 1rem;
+    }
+
+    .individual-caption h1 {
+        text-align: center;
+    }
+    
+}

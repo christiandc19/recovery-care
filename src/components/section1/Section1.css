@@ -1,0 +1,66 @@
+.section1 {
+    background-color: rgb(245, 240, 240);
+    padding: 5rem 0;
+    background: url('../../assets/hero-bg-1.jpg') no-repeat center top/cover;
+}
+
+.section1-content {
+    margin-top: -8rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.section1-card-caption {
+    margin: auto;
+}
+
+.section1-card-caption h1 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.section1-card {
+    text-align: center;
+    background-color: white;
+    width: auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 10px 14px 15px -14px rgba(0,0,0,0.75);
+    transition: border-radius .5s;
+}
+
+.section1-card:hover {
+    border-top-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+}
+
+
+.section1-card-img {
+    width: 180px;
+    margin: auto;
+}
+
+
+.section1-card-img img {
+    width: 100%;
+}
+
+.section1-card-caption {
+    margin: auto;
+}
+
+@media screen and (max-width:700px) {
+    .section1-card {
+        display: flex;
+    }
+
+    .section1-card {
+        text-align: center;
+        background-color: white;
+        border-radius: 1rem;
+        box-shadow: 10px 14px 15px -14px rgba(0,0,0,0.75);
+    }
+}

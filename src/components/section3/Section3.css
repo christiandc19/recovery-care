@@ -1,0 +1,67 @@
+.section3 {
+    background-color: rgb(245, 240, 240);
+    padding: 5rem 0;
+    background: url('../../assets/hero-bg-1.jpg') no-repeat center top/cover;
+}
+
+
+.section3-header {
+    margin: auto;
+    text-align: center;
+}
+
+.section3-header h1 {
+    font-family: 'Nanum Myeongjo', serif;
+    padding: 1rem;
+}
+
+
+.section3-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 3rem 0;
+}
+
+.section3-flexItem {
+    width: 350px;
+}
+
+.rate {
+  text-align: center;
+  margin: auto;
+}
+
+.rate p {
+  padding: 0 1rem;
+  color: rgb(29, 28, 28);
+}
+
+.rate h4 {
+  font-size: 4rem;
+  color: var(--primary-color);
+  padding: 0;
+}
+
+.rate h3 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  line-height: 2rem;
+  text-transform: uppercase;
+}
+
+
+.rate h3:after {
+	height: 4px;
+	width: 60%;
+	content: "";
+	background: var(--primary-color);
+	display: block;
+	transition: width 0.4s ease;
+	transition-delay: 0.8s;
+  margin: auto;
+}
+
+
+
