@@ -3,9 +3,6 @@ import { BsFillPinMapFill } from 'react-icons/bs';
 import { AiOutlinePhone } from 'react-icons/ai';
 import { AiOutlineMail } from 'react-icons/ai';
 
-import Fade from 'react-reveal/Fade';
-
-
 import './ContactForm.css';
 import emailjs from 'emailjs-com'
 
