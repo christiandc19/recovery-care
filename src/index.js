@@ -15,7 +15,7 @@ import OPIOID from './routes/OPIOID';
 import OS from './routes/OtherSubstances';
 
 import IndividualPage from './routes/IndividualPage';
-import FamilyPage from './routes/FamilyPage';
+import LovedOnes from './routes/LovedOnes';
 
 
 import Jobs from './routes/JOBS';
@@ -31,7 +31,7 @@ ReactDOM.render(
       <Route exact path='/other-substances' element={<OS />} />
 
       <Route exact path='/individual' element={<IndividualPage />} />
-      <Route exact path='/family' element={<FamilyPage />} />
+      <Route exact path='/loved-ones' element={<LovedOnes />} />
 
 
       <Route exact path='/jobs' element={<Jobs />} />

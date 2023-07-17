@@ -9,11 +9,11 @@ const Insurance = () => {
 
     return (
             <>
-            <div className='insurance main-menu'>
+            <div className='insurance main-menu container'>
 
                         <div className="insurance-content">
                             <Fade top>
-                                <h1>INSURANCE</h1>
+                                <h1>Insurance</h1>
                             </Fade>
                         </div>
                     </div>

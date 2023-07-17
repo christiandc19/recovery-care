@@ -79,15 +79,21 @@
 }
 
 .section2-left h1 {
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    padding: 0 1rem;
+    font-size: 2rem;
+    padding: .5rem 1rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: 'Indie Flower', cursive;
+
 }
 
 .section2-left p {
-    font-size: 14px;
+    font-size: 16px;
     text-align: justify;
     padding: 0 1rem;
+    color: rgb(17, 17, 17);
+    letter-spacing: 2px;
+
 }
 
 

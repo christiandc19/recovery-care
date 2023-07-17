@@ -28,7 +28,7 @@ const Section1 = () => {
               </LinkRoll>
 
               <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-              <Link to="/family">
+              <Link to="/loved-ones">
                 <div className='section1-card'>
                     <div className='section1-card-img'>
                         <img src={ family } alt="individual therapy" loading="lazy"/>

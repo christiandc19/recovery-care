@@ -19,7 +19,7 @@ import Anthem from '../../assets/anthem.png'
 const InsuranceSection = () => {
     return (
         <>
-        <div className='InsuranceSection'>
+        <div className='InsuranceSection container'>
             <div className="InsuranceSection-container">
                 <div>
                 <h1>WE WORK WITH MAJOR INSURANCE GROUPS</h1>

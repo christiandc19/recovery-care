@@ -1,0 +1,19 @@
+.lovedOnesSection1 {
+    background-color: white;
+}
+
+.lovedOnesSection1-content {
+    margin: auto;
+    padding: 1rem;
+    width: 80%;
+}
+
+.lovedOnesSection1-content h1 {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 2rem;
+}
+
+.lovedOnesSection1-content p {
+    font-size: 18px;
+}
