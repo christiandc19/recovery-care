@@ -50,17 +50,18 @@ const Navbar = () => {
                 </div>
 
                 <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
-                    <li><Link to='/'>Home</Link></li>
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> What We Treat <FiChevronDown /> </Link>
+                    {/* <li><Link to='/'>Home</Link></li> */}
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> How we help <FiChevronDown /> </Link>
                         <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/alcohol`}> Alcohol Addiction</NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/opioid`}> Opioid Addiction </NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/other-substances`}> Other Substances </NavLink> </li>
                         </ul>
                     </li>
+                    <li><Link to='/insurance'>Insurance</Link></li>
 
 
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Where We Serve <FiChevronDown /> </Link>
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="/where-we-serve"> Where We Serve <FiChevronDown /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/`}> Location 1</NavLink> </li>
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/`}> Location 2</NavLink> </li>
@@ -79,7 +80,6 @@ const Navbar = () => {
                     </ul>
                     </li>
 
-                    <li><Link to='/insurance'>Insurance</Link></li>
                 </ul>
 
                 <Link to='/contact'>

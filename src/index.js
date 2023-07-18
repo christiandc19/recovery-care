@@ -14,6 +14,9 @@ import ALCOHOL from './routes/ALCOHOL';
 import OPIOID from './routes/OPIOID';
 import OS from './routes/OtherSubstances';
 
+import WWS from './routes/WhereWeServePage';
+
+
 import IndividualPage from './routes/IndividualPage';
 import LovedOnes from './routes/LovedOnes';
 
@@ -32,6 +35,7 @@ ReactDOM.render(
       <Route exact path='/individual' element={<IndividualPage />} />
       <Route exact path='/loved-ones' element={<LovedOnes />} />
 
+      <Route exact path='/where-we-serve' element={<WWS />} />
 
       <Route exact path='/mission' element={<MissionPage />} />
 

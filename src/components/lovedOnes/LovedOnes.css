@@ -1,6 +1,6 @@
 .lovedOnes {
     background-color: rgb(245, 240, 240);
-    padding: 2rem 0 0 0;
+    padding: 5rem 0 ;
     background: url('../../assets/hero-bg-1.jpg') no-repeat center top/cover;
 }
 
@@ -18,12 +18,11 @@
 
 .lovedOnes-header {
     position: relative;
-    left: -7rem;
     z-index: 2;
 }
 
 .lovedOnes-right h1 {
-    font-size: 4rem;
+    font-size: 2rem;
     padding: 2rem 0;
     text-align: left;
     font-family: 'Indie Flower', cursive;
@@ -96,7 +95,6 @@
     }
 
     .lovedOnes-right h1 {
-        font-size: 3.5rem;
         padding: 1rem;
         text-align: center;
     }

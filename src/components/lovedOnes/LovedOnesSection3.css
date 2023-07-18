@@ -1,0 +1,56 @@
+.lo3 {
+    padding: 3rem 0;
+    background-color: white;
+}
+
+.lo3-banner-img {
+    width: 100%;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+.lo3-banner-img img{
+    width: 80%;
+    border-radius: 2rem;
+}
+
+.lo3-header h1{
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+.lo3-flex {
+    display: flex;
+    justify-content: left;
+    gap: 2rem;
+    padding: 1rem 1rem;
+    width: 80%;
+    margin: auto;
+}
+
+.lo3-flex-right {
+    margin: auto 0;
+}
+
+.lo3-flex h1 {
+    font-size: 3rem;
+    
+}
+
+.lo3-flex p {
+    font-size: 16px;
+}
+
+@media screen and (max-width:940px) {
+    .lo3-banner-img img{
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .lo3-header h1{
+        font-size: 1.2rem;
+    }
+
+}

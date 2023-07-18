@@ -1,6 +1,11 @@
 import React from 'react'
 import './HowItWorks.css'
 import Hiw1 from '../../assets/section1-card2.png'
+import Hiw2 from '../../assets/hiw2.png'
+import Hiw3 from '../../assets/hiw3.png'
+import Hiw4 from '../../assets/hiw4.png'
+import Hiw5 from '../../assets/hiw5.png'
+
 import FIRST from '../../assets/step1.png'
 
 
@@ -37,7 +42,7 @@ const HowItWorks = () => {
 
                     <div className='hiw-item'>
                             <div className='first-image second-image'>
-                                <img src={ FIRST } alt="How It Works" loading="lazy"/>
+                                <img src={ Hiw2 } alt="How It Works" loading="lazy"/>
 
                                 <div className='arrow1'>
                                     <img src={ Arrow1 } alt="How It Works" loading="lazy"/>
@@ -52,7 +57,7 @@ const HowItWorks = () => {
 
                     <div className='hiw-item'>
                             <div className='first-image third-image'>
-                                <img src={ FIRST } alt="How It Works" loading="lazy"/>
+                                <img src={ Hiw3 } alt="How It Works" loading="lazy"/>
 
                                 <div className='arrow2'>
                                     <img src={ Arrow2 } alt="How It Works" loading="lazy"/>
@@ -66,7 +71,7 @@ const HowItWorks = () => {
 
                     <div className='hiw-item'>
                             <div className='first-image second-image'>
-                                <img src={ FIRST } alt="How It Works" loading="lazy"/>
+                                <img src={ Hiw4 } alt="How It Works" loading="lazy"/>
 
                                 <div className='arrow1'>
                                     <img src={ Arrow1 } alt="How It Works" loading="lazy"/>
@@ -80,7 +85,7 @@ const HowItWorks = () => {
 
                     <div className='hiw-item'>
                             <div className='first-image third-image'>
-                                <img src={ FIRST } alt="How It Works" loading="lazy"/>
+                                <img src={ Hiw5 } alt="How It Works" loading="lazy"/>
                                 
                                 <div className='arrow2'>
                                     <img src={ Arrow2 } alt="How It Works" loading="lazy"/>
