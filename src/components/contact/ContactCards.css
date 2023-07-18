@@ -1,0 +1,44 @@
+.contact-cards {
+    padding: 3rem 0 ;
+    background-color: white;
+    border-bottom: 6px solid rgb(224, 109, 42);
+    margin: auto;
+}
+
+.contact-card {
+    width: 200px;
+}
+
+.contact-card h1 {
+    padding: 1rem 0 0 0;
+}
+
+.contact-cards-contents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.contact-card-icon {
+    width: 100px;
+    margin: auto;
+}
+
+.contact-card-info {
+    text-align: center;
+}
+
+.contact-card-icon img {
+    width: 100%;
+}
+
+@media screen and (max-width:700px) {
+    .contact-card-icon {
+        width: 50px;
+    }
+
+    .contact-card h1 {
+        font-size: 1rem;
+    }
+}

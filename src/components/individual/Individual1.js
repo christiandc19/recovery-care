@@ -1,6 +1,9 @@
 import React from 'react'
 import './Individual1.css'
-import individual from '../../assets/section1-card2.png'
+import Step1 from '../../assets/step1.png'
+import Step2 from '../../assets/step2.png'
+import Step3 from '../../assets/step3.png'
+import Step4 from '../../assets/step4.png'
 
 const Individual1 = () => {
   return (
@@ -16,7 +19,7 @@ const Individual1 = () => {
 
             <div className='individual1-flex'>
                 <div className='individual1-icon'>
-                    <img src={ individual } alt="individual therapy" loading="lazy"/>
+                    <img src={ Step1 } alt="individual therapy" loading="lazy"/>
                 </div>
 
                 <div className='individual-caption'>
@@ -29,7 +32,7 @@ const Individual1 = () => {
 
                 <div className='individual1-flex'>
                     <div className='individual1-icon'>
-                        <img src={ individual } alt="individual therapy" loading="lazy"/>
+                        <img src={ Step2 } alt="individual therapy" loading="lazy"/>
                     </div>
 
                     <div className='individual-caption'>
@@ -43,7 +46,7 @@ const Individual1 = () => {
 
                 <div className='individual1-flex'>
                     <div className='individual1-icon'>
-                        <img src={ individual } alt="individual therapy" loading="lazy"/>
+                        <img src={ Step3 } alt="individual therapy" loading="lazy"/>
                     </div>
 
                     <div className='individual-caption'>
@@ -57,7 +60,7 @@ const Individual1 = () => {
 
                 <div className='individual1-flex'>
                     <div className='individual1-icon'>
-                        <img src={ individual } alt="individual therapy" loading="lazy"/>
+                        <img src={ Step4 } alt="individual therapy" loading="lazy"/>
                     </div>
 
                     <div className='individual-caption'>

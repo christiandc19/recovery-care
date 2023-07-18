@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+.individual3 {
+    background-color: white;
+    padding: 5rem 0;
+}
+
+.individual3-content {
+    padding: 0 6rem;
+}
+
+.individual3-flex {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.individual3-icon {
+    width: 150px;
+}
+
+.individual3-icon img {
+    width: 100%;
+}
+
+.individual3-caption {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.individual3-caption h1 {
+    padding: .8rem 0;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2.5rem;
+    color: rgb(230, 142, 10);
+}
+
+.individual3-caption h2 {
+    padding: .8rem 0;
+    font-family: 'Handlee', cursive;
+    font-size: 1.2rem;
+}
+
+.individual3-caption p {
+    font-size: 16px;
+}
+
+@media screen and (max-width:940px) {
+    .individual3-caption {
+        width: 90%;
+        padding: 0 1rem;
+    }
+
+    .individual3-caption h1 {
+        text-align: center;
+    }
+
+    .individual3-caption h2 {
+        text-align: center;
+    }
+
+    .individual3-icon {
+        margin-bottom: -3rem;
+    }
+
+    .individual3-content {
+        padding: 0;
+    }
+    
+}

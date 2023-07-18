@@ -2,6 +2,8 @@
     background-color: rgb(245, 240, 240);
     padding: 5rem 0;
     background: url('../../assets/hero-bg-1.jpg') no-repeat center top/cover;
+    position: relative;
+    z-index: 1;
 }
 
 .section1-content {
@@ -52,6 +54,13 @@
     margin: auto;
 }
 
+.rainbow img {
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
 @media screen and (max-width:700px) {
     .section1-card {
         display: flex;
@@ -62,5 +71,13 @@
         background-color: white;
         border-radius: 1rem;
         box-shadow: 10px 14px 15px -14px rgba(0,0,0,0.75);
+    }
+
+}
+
+
+@media screen and (max-width:700px) {
+    .rainbow img {
+        width: 100%;
     }
 }

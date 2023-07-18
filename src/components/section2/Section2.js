@@ -12,10 +12,20 @@ import Splatter3 from '../../assets/splatter3.png'
 const Section2 = () => {
   return (
     <>
+
+
+
         <div className='section2 container'>
+
+
+
+
             <div className='section2-content'>
 
                 <div className='section2-header'>
+                    <svg viewBox="0 0 70 36">
+                        <path d="M6.9739 30.8153H63.0244C65.5269 25.8152 85.5358 -5.68471 35.4998 1.81531C-16.1598 11.2025 0.894099 21.9766 17.9922 22.3153C104.062 30.3153 54.5169 -6.68469 23.489 9.31527" />
+                    </svg>
                     <h1>Compassionate, down-to-earth care <br/>
                         for people with substance use disorder.</h1>
                 </div>

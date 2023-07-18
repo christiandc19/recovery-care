@@ -7,6 +7,7 @@
     font-size: 2rem;
     font-family: 'Indie Flower', cursive;
     text-align: center;
+    padding: 3rem 0;
 }
 
 .individual1-flex {
@@ -18,7 +19,7 @@
 }
 
 .individual1-icon {
-    width: 200px;
+    width: 130px;
 }
 
 .individual1-icon img {
@@ -33,17 +34,21 @@
 }
 
 .individual-caption h1 {
-    padding: 1rem 0;
+    padding: .8rem 0;
 }
 
 @media screen and (max-width:940px) {
     .individual-caption {
         width: 90%;
-        padding: 1rem;
+        padding: 0 1rem;
     }
 
     .individual-caption h1 {
         text-align: center;
+    }
+
+    .individual1-icon {
+        margin-bottom: -3rem;
     }
     
 }

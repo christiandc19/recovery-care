@@ -2,6 +2,7 @@ import React from 'react'
 import './Section1.css'
 import individual from '../../assets/section1-card2.png'
 import family from '../../assets/section1-card1.png'
+import Rainbow from '../../assets/rainbow.png'
 
 import { Link as LinkRoll } from 'react-scroll'
 import { Link } from 'react-router-dom';
@@ -11,6 +12,10 @@ const Section1 = () => {
   return (
     <>
       <div className='section1 container'>
+                    <div className='rainbow'>
+                        <img src={ Rainbow } alt="individual therapy" loading="lazy"/>
+                    </div>
+
         <div className='section1-content'>
 
 

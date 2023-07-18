@@ -18,7 +18,6 @@ import IndividualPage from './routes/IndividualPage';
 import LovedOnes from './routes/LovedOnes';
 
 
-import Jobs from './routes/JOBS';
 import Team from './routes/Team';
 
 
@@ -34,7 +33,6 @@ ReactDOM.render(
       <Route exact path='/loved-ones' element={<LovedOnes />} />
 
 
-      <Route exact path='/jobs' element={<Jobs />} />
       <Route exact path='/mission' element={<MissionPage />} />
 
       <Route exact path='/about-us' element={<AboutPage />} />

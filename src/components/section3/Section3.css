@@ -11,8 +11,10 @@
 }
 
 .section3-header h1 {
-    font-family: 'Nanum Myeongjo', serif;
-    padding: 1rem;
+  font-size: 2rem;
+  padding: .5rem 1rem;
+  color: var(--primary-text);
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 

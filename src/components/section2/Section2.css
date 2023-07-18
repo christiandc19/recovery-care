@@ -79,21 +79,20 @@
 }
 
 .section2-left h1 {
-    font-size: 2rem;
+    font-size: 1.2rem;
     padding: .5rem 1rem;
-    letter-spacing: 2px;
-    font-weight: 600;
-    font-family: 'Indie Flower', cursive;
+    color: var(--primary-text);
+    font-family: 'Nanum Myeongjo', serif;
+    text-transform: uppercase;
 
 }
 
 .section2-left p {
-    font-size: 16px;
+    font-size: 14px;
     text-align: justify;
     padding: 0 1rem;
     color: rgb(17, 17, 17);
     letter-spacing: 2px;
-
 }
 
 
@@ -135,6 +134,44 @@
 .section2-accent img {
     width: 100%;
 }
+
+
+/*  */
+
+ .section2 h2 {
+        display: inline-block;
+        position: relative;
+        text-decoration: none;
+        color: inherit;
+        margin: 0 var(--spacing, 0px);
+        transition: margin .25s;
+ }
+
+  .section2 svg {
+            width: 200px;
+            height: 100px;
+            position: absolute;
+            top:  2%;
+            left: 41%;
+            bottom: 0;
+            transform: translate(-50%, 5px) translateZ(0);
+            fill: none;
+            stroke: rgb(245, 147, 55);
+            stroke-linecap: round;
+            stroke-width: 2px;
+            stroke-dasharray: var(--offset, 69px) 278px;
+            stroke-dashoffset: 361px;
+            --offset: 180px;
+        }
+
+
+/*  */
+
+
+
+
+
+
 
 @media screen and (max-width:940px) {
     .section2-left {

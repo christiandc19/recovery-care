@@ -1,8 +1,4 @@
 import React, { useRef } from "react";
-import { BsFillPinMapFill } from 'react-icons/bs';
-import { AiOutlinePhone } from 'react-icons/ai';
-import { AiOutlineMail } from 'react-icons/ai';
-
 import './ContactForm.css';
 import emailjs from 'emailjs-com'
 
@@ -31,23 +27,6 @@ const ContactForm = () => {
 <div className="contact-form container">
 
 <div className="contact-container">
-    <div className="contact-cards-container">
-          <div class="get_form_inner2">
-              <h2>CALL US</h2>
-              <p><AiOutlinePhone /><a href="tel:3235792196"> +1 (323) 579-2196</a></p>
-          </div>
-
-          <div class="get_form_inner2">
-            <h2>EMAIL</h2>
-            <p><AiOutlineMail /> info@20thStreetDetox.com  </p><br />
-          </div>
-
-          <div class="get_form_inner2">
-            <h2>LOCATION</h2>
-            <p><BsFillPinMapFill /> 1045 20th St, Los Angeles CA 90011</p>
-          </div>
-    </div>
-
 
     <div class="get_form_inner">
 

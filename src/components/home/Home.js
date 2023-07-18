@@ -5,12 +5,7 @@ import Section3 from '../section3/Section3'
 import Section4 from '../section4/Section4'
 import ContactForm from '../contact/ContactForm';
 import Section5 from '../section5/Section5'
-// import InsuranceSection from '../insurance/InsuranceSection';
-// import Whoweare from '../Whoweare/Whoweare'
-// import Cards from '../servicesCards/Cards';
-// import Conditions from '../conditions/Conditions';
-// import Sample from '../../components/sampleComponent/sample'
-// import MissionHome from '../mission/MissionHome';
+import ContactCards from '../contact/ContactCards'
 
 const home = () => {
   return (
@@ -21,13 +16,7 @@ const home = () => {
     <Section4 />
     <Section5 />
     <ContactForm />
-    {/* <Cards />
-    <Conditions />
-    <Sample />
-    <Whoweare />
-    <InsuranceSection />
-    <MissionHome />
-    <ContactForm /> */}
+    <ContactCards />
     </>
   )
 }
