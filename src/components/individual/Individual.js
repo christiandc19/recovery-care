@@ -31,8 +31,9 @@ const Individual = () => {
                         <div className='individual-header'>
                         <h1>How we help</h1>
                         </div>
-                    
-                        <p>Aware offers a state-of-the-art alternative to traditional rehab care. Our dedicated team helps clients navigate their individual recovery plan using a range of proven tools, from 12-step programs and medically assisted treatment (MAT), to mindfulness, family therapy, nutrition, yoga, and more.</p>
+                        <p>We don’t just drop you back into the “real world"...</p>
+                        <h2>Because you never leave it.</h2>
+                        <p>Lasting recovery from addiction is possible. We bring holistic, compassionate, and evidence-based care to you, so you have the best chance to achieve sustainable recovery.</p>
                     </div>
                 </div>
 

@@ -24,7 +24,7 @@
 
 .individual-right h1 {
     font-size: 4rem;
-    padding: 2rem 0;
+    padding: 1rem 0;
     text-align: left;
     font-family: 'Indie Flower', cursive;
     color: rgb(218, 145, 37);
@@ -33,7 +33,11 @@
 
 .individual-right p {
     font-size: 18px;
-    text-align: center;
+    text-align: left;
+}
+
+.individual-right h2 {
+    padding: 1rem 0;
 }
 
 .individual-left {

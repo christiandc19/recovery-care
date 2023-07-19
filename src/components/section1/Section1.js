@@ -26,7 +26,7 @@ const Section1 = () => {
                         <img src={ individual } alt="individual therapy" loading="lazy"/>
                     </div>
                     <div className='section1-card-caption'>
-                        <h1>For Individual</h1>
+                        <h1>For Individuals</h1>
                     </div>
                 </div>
               </Link>
