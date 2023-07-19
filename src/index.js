@@ -5,7 +5,6 @@ import App from './App';
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
-import MissionPage from './routes/MissionPage'
 import AboutPage from './routes/AboutPage'
 import InsurancePage from './routes/InsurancePage'
 import ContactPage from './routes/ContactPage'
@@ -20,8 +19,9 @@ import WWS from './routes/WhereWeServePage';
 import IndividualPage from './routes/IndividualPage';
 import LovedOnes from './routes/LovedOnes';
 
-
+import StoryPage from './routes/StoryPage'
 import Team from './routes/Team';
+import Faq from './routes/FaqPage';
 
 
 ReactDOM.render(
@@ -37,10 +37,10 @@ ReactDOM.render(
 
       <Route exact path='/where-we-serve' element={<WWS />} />
 
-      <Route exact path='/mission' element={<MissionPage />} />
-
       <Route exact path='/about-us' element={<AboutPage />} />
+      <Route exact path='/our-story' element={<StoryPage />} />
       <Route exact path='/team' element={<Team />} />
+      <Route exact path='/faq' element={<Faq />} />
 
       <Route exact path='/insurance' element={<InsurancePage />} />
       <Route exact path='/contact' element={<ContactPage />} />

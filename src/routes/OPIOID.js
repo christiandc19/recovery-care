@@ -8,6 +8,7 @@ import ContactForm from '../components/contact/ContactForm'
 import OpioidSection2 from '../components/Addiction-Opioid/OpioidSection2'
 import OpioidSection3 from '../components/Addiction-Opioid/OpioidSection3'
 import ContactCards from '../components/contact/ContactCards'
+import HowItWorks from '../components/howItWorks/HowItWorks'
 
 const Opioid = () => {
   return (
@@ -17,6 +18,7 @@ const Opioid = () => {
     <OpioidSection1 />
     <OpioidSection2 />
     <OpioidSection3 />
+    <HowItWorks />
     <ContactForm />
     <ContactCards />
     <Footer />

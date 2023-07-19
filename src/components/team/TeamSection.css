@@ -1,7 +1,12 @@
 .team-section {
     width: 100%;
     position: relative;
-    background: rgba(255, 255, 255, 0);
+    background: rgb(255, 255, 255);
+}
+
+.team-section-header {
+    width: 80%;
+    margin: auto;
 }
 
 .team-section .content {
@@ -12,24 +17,25 @@
     padding: 1rem;
 }
 
-.team-section .content p {
-    margin: 1rem 0;
+.team-section .content {
+    padding: 1rem;
 }
 
 .team-section p {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    padding: 1rem;
 }
 
 
-.team-section h1 {
-    padding: 2rem 0 0 0;
-    margin: 2rem 0;
+.team-section-header h1 {
+    padding: 2rem 0;
     font-size: 2rem;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: var(--primary-color);
 }
+
 
 .flex-right {
     display: flex;
@@ -40,17 +46,16 @@
     gap: 1rem;
 }
 
-.thumbnail img {
-    margin: 5px;
-    padding: 5px;
+.team-thumbnail {
+    width: 350px;
+}
+
+.team-thumbnail img {
+   width: 100%;
     box-shadow: 10px 5px 5px rgb(129, 129, 129);
     border-radius: 1rem;
 }
 
-.thumbnail p {
-    width: 320px;
-    text-align: center;
-}
 
 .mission-section button {
     margin: auto;
@@ -68,13 +73,14 @@
     .team-section p {
         font-size: 15px;
     }
-
-    .thumbnail img {
-        width: 250px;
-        height: 150px;
-    }
 }
 
+
+@media screen and (max-width: 700px) {
+    .team-thumbnail {
+        width: 100%;
+    }
+}
 
 
 

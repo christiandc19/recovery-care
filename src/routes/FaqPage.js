@@ -2,22 +2,17 @@ import React from 'react'
 
 import Navbar from '../components/navbar/Navbar'
 import Footer from '../components/footer/Footer'
-import SA from '../components/otherSubstances/OtherSubstances'
-import OS1 from '../components/otherSubstances/OS1'
-import OS2 from '../components/otherSubstances/OS2'
-import Section5 from '../components/section5/Section5'
+import FAQ1 from '../components/faq/Faq1'
 import ContactForm from '../components/contact/ContactForm'
 import ContactCards from '../components/contact/ContactCards'
+import Faq from '../components/faq/Faq'
 
-
-const OtherSubstances = () => {
+const FaqPage = () => {
   return (
     <>
     <Navbar /> 
-    <SA />
-    <OS1 />
-    <OS2 />
-    <Section5 />
+    <Faq />
+    <FAQ1 />
     <ContactForm />
     <ContactCards />
     <Footer />
@@ -25,4 +20,4 @@ const OtherSubstances = () => {
   )
 }
 
-export default OtherSubstances
+export default FaqPage
