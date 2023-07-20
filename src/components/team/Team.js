@@ -1,5 +1,5 @@
 import React from 'react'
-import Fade from 'react-reveal/Fade';
+import Splatter3 from '../../assets/splatter3.png'
 
 import './Team.css'
 
@@ -7,17 +7,17 @@ import './Team.css'
 
 const Team = () => {
     return (
-        <>
-        <div className='team container'>
-                <div className="team-content">
-                    <Fade left>
-                    <h1>OUR TEAM</h1>
-                    </Fade>
+<>
+<div className='team container'>
+        <div className="team-content">
+            <h1>Our Team</h1>
+                <div className='team-accent'>
+                    <img src={ Splatter3 } alt="individual therapy" loading="lazy"/>
                 </div>
-            </div>
-
-        </>
-    )
+        </div>
+    </div>
+</>
+)
 }
 
 export default Team

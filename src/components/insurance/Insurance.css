@@ -20,18 +20,41 @@
     z-index: -1;
   }
 
-.insurance .insurance-content {
+
+  .insurance .insurance-content {
     display: block;
     position: absolute;
-    top: 25%;
+    top: 30%;
     padding: 1rem;
+    width: 50%;
+}
+
+.insurance-accent {
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+}
+
+.insurance-accent img {
+    width: 100%;
+    opacity: 0.6;
+}
+
+.insurance h2 {
+    color: rgb(240, 232, 232);
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .insurance h1 {
     font-size: 5rem;
     font-family: 'Indie Flower', cursive;
-    color: rgb(245, 243, 239);
-    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
 
 
@@ -48,4 +71,16 @@
 .insurance h1 {
     font-size: 3rem;
 }
+
+
+.insurance .insurance-content {
+    width: 70%;
+}
+}
+
+
+@media screen and (max-width:700px) {
+    .insurance .insurance-content {
+        width: 100%;
+    }
 }

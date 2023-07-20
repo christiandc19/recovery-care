@@ -2,6 +2,9 @@ import React from 'react'
 import './WhereWeServe.css'
 import Splatter3 from '../../assets/splatter3.png'
 
+import { Link as LinkRoll } from 'react-scroll'
+import { Link } from 'react-router-dom';
+
 const WhereWeServe = () => {
     return (
         <>
@@ -18,7 +21,12 @@ const WhereWeServe = () => {
         
 
         <div className='wws-locations container'>
-                <h2>Location1</h2>
+                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                    <Link to="/los-angeles">
+                        <h2>Los Angeles</h2>
+                    </Link>
+                </LinkRoll>
+
                 <h2>Location2</h2>
                 <h2>Location3</h2>
                 <h2>Location4</h2>

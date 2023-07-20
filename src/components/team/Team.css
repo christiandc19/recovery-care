@@ -21,23 +21,40 @@
   }
 
 
-.team .team-content {
+  .team .team-content {
     display: block;
     position: absolute;
     top: 30%;
     padding: 1rem;
+    width: 50%;
+}
+
+.team-accent {
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+}
+
+.team-accent img {
+    width: 100%;
+    opacity: 0.6;
 }
 
 .team h2 {
-    color: white;
+    color: rgb(240, 232, 232);
     font-size: 2.5rem;
     font-family: 'Montserrat', sans-serif;
 }
 
 .team h1 {
-    font-size: 4rem;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
+    font-size: 5rem;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
 
 
@@ -47,10 +64,23 @@
 @media screen and (max-width:940px) {
 
 .team h2 {
+    color: white;
     font-size: 1.5rem;
 }
 
 .team h1 {
-    font-size: 2rem;
+    font-size: 3rem;
 }
+
+
+.team .team-content {
+    width: 70%;
+}
+}
+
+
+@media screen and (max-width:700px) {
+    .team .team-content {
+        width: 100%;
+    }
 }
