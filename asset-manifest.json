@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/recovery-care/static/css/main.bd1993a4.css",
-    "main.js": "/recovery-care/static/js/main.84ec7535.js",
+    "main.css": "/recovery-care/static/css/main.472ad2fa.css",
+    "main.js": "/recovery-care/static/js/main.a989f35f.js",
     "static/media/losangeles.jpg": "/recovery-care/static/media/losangeles.51fd710ba563a4e60045.jpg",
     "static/media/contact.jpg": "/recovery-care/static/media/contact.97fe3bf629199f52f296.jpg",
     "static/media/opioidSection2.jpg": "/recovery-care/static/media/opioidSection2.08e0a41f470d8cfd1298.jpg",
@@ -68,11 +68,11 @@
     "static/media/united-healthcare.png": "/recovery-care/static/media/united-healthcare.3232942dcd76167b3bca.png",
     "static/media/aetna.png": "/recovery-care/static/media/aetna.6dd387382e5c040dbe55.png",
     "index.html": "/recovery-care/index.html",
-    "main.bd1993a4.css.map": "/recovery-care/static/css/main.bd1993a4.css.map",
-    "main.84ec7535.js.map": "/recovery-care/static/js/main.84ec7535.js.map"
+    "main.472ad2fa.css.map": "/recovery-care/static/css/main.472ad2fa.css.map",
+    "main.a989f35f.js.map": "/recovery-care/static/js/main.a989f35f.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd1993a4.css",
-    "static/js/main.84ec7535.js"
+    "static/css/main.472ad2fa.css",
+    "static/js/main.a989f35f.js"
   ]
 }
