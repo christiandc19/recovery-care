@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/recovery-care/static/css/main.47251a98.css",
-    "main.js": "/recovery-care/static/js/main.6c604138.js",
+    "main.css": "/recovery-care/static/css/main.ce457be3.css",
+    "main.js": "/recovery-care/static/js/main.b9c5e281.js",
     "static/media/contact.jpg": "/recovery-care/static/media/contact.97fe3bf629199f52f296.jpg",
     "static/media/opioidSection2.jpg": "/recovery-care/static/media/opioidSection2.08e0a41f470d8cfd1298.jpg",
     "static/media/section4-img.jpg": "/recovery-care/static/media/section4-img.015ba02839345cbe7080.jpg",
@@ -35,10 +35,8 @@
     "static/media/two.png": "/recovery-care/static/media/two.d939cec6d766350aadbc.png",
     "static/media/four.png": "/recovery-care/static/media/four.3a188e6d0de8ae1a59b5.png",
     "static/media/three.png": "/recovery-care/static/media/three.3097f1936b2771c68ec5.png",
-    "static/media/mh-submenu-bg.jpg": "/recovery-care/static/media/mh-submenu-bg.b41155bca1af6f12a7f7.jpg",
     "static/media/splatter3.png": "/recovery-care/static/media/splatter3.44037c852e3aad6d01ab.png",
     "static/media/hero-bg-1.jpg": "/recovery-care/static/media/hero-bg-1.ae447c2e169df34fb053.jpg",
-    "static/media/menu-bg-about.jpg": "/recovery-care/static/media/menu-bg-about.3ce1099a8cc09b6d0f3f.jpg",
     "static/media/talk.png": "/recovery-care/static/media/talk.c45a32e29b16c3422637.png",
     "static/media/email.png": "/recovery-care/static/media/email.fddd249406995d481138.png",
     "static/media/call_us.png": "/recovery-care/static/media/call_us.0a4cbfe0b991749e1484.png",
@@ -48,7 +46,6 @@
     "static/media/OS2IMG1.jpg": "/recovery-care/static/media/OS2IMG1.bddf660d2f02a9805469.jpg",
     "static/media/team2-min.jpg": "/recovery-care/static/media/team2-min.e706e26d4aabb9a13ac3.jpg",
     "static/media/team5-min.jpg": "/recovery-care/static/media/team5-min.d726e8e87fc5c440d66d.jpg",
-    "static/media/submenu-bg.jpg": "/recovery-care/static/media/submenu-bg.ebb4f6c7d8bd77ad609a.jpg",
     "static/media/team6-min.jpg": "/recovery-care/static/media/team6-min.ab3ea8b49b168c671184.jpg",
     "static/media/splatter-green.png": "/recovery-care/static/media/splatter-green.4f3207f314b8636d1740.png",
     "static/media/nav-logo.png": "/recovery-care/static/media/nav-logo.d139ed58f4fc5ea683b1.png",
@@ -70,12 +67,11 @@
     "static/media/united-healthcare.png": "/recovery-care/static/media/united-healthcare.3232942dcd76167b3bca.png",
     "static/media/aetna.png": "/recovery-care/static/media/aetna.6dd387382e5c040dbe55.png",
     "index.html": "/recovery-care/index.html",
-    "static/media/waves.svg": "/recovery-care/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.47251a98.css.map": "/recovery-care/static/css/main.47251a98.css.map",
-    "main.6c604138.js.map": "/recovery-care/static/js/main.6c604138.js.map"
+    "main.ce457be3.css.map": "/recovery-care/static/css/main.ce457be3.css.map",
+    "main.b9c5e281.js.map": "/recovery-care/static/js/main.b9c5e281.js.map"
   },
   "entrypoints": [
-    "static/css/main.47251a98.css",
-    "static/js/main.6c604138.js"
+    "static/css/main.ce457be3.css",
+    "static/js/main.b9c5e281.js"
   ]
 }
