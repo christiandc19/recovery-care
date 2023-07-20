@@ -11,7 +11,8 @@ const Footer = () => {
 
 <> 
         <div className='footer container'>
-            <div className="container">
+
+            <div className="footer-content container">
 
                 <div className="top">
                     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >

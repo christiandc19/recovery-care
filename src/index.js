@@ -5,7 +5,6 @@ import App from './App';
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
-import AboutPage from './routes/AboutPage'
 import InsurancePage from './routes/InsurancePage'
 import ContactPage from './routes/ContactPage'
 
@@ -37,7 +36,6 @@ ReactDOM.render(
 
       <Route exact path='/where-we-serve' element={<WWS />} />
 
-      <Route exact path='/about-us' element={<AboutPage />} />
       <Route exact path='/our-story' element={<StoryPage />} />
       <Route exact path='/team' element={<Team />} />
       <Route exact path='/faq' element={<Faq />} />
