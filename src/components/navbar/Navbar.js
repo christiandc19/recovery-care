@@ -63,7 +63,7 @@ const Navbar = () => {
 
                     <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="/where-we-serve"> Where We Serve <FiChevronDown /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`#`}> Location 1</NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/los-angeles`}> Los Angeles</NavLink> </li>
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`#`}> Location 2</NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`#`}> Location 3 </NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`#`}> Location 4 </NavLink> </li>

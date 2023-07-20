@@ -13,7 +13,7 @@ import OPIOID from './routes/OPIOID';
 import OS from './routes/OtherSubstances';
 
 import WWS from './routes/WhereWeServePage';
-
+import LosAngeles from './routes/LosAngelesPage'
 
 import IndividualPage from './routes/IndividualPage';
 import LovedOnes from './routes/LovedOnes';
@@ -35,6 +35,7 @@ ReactDOM.render(
       <Route exact path='/loved-ones' element={<LovedOnes />} />
 
       <Route exact path='/where-we-serve' element={<WWS />} />
+      <Route exact path='/los-angeles' element={<LosAngeles />} />
 
       <Route exact path='/our-story' element={<StoryPage />} />
       <Route exact path='/team' element={<Team />} />
