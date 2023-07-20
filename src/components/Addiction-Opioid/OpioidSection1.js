@@ -17,32 +17,6 @@ const OpioidSection1 = () => {
 
 {/* OPIOID 1 */}
 
-
-<div className='opioidSection1B-flex'>
-                    <div className='opioidSection1B-left'>
-                        <div className='opioidSection1B-images'>
-                            <img src={ opioidSection1 } alt="individual therapy" loading="lazy"/>
-
-                                <div className='opioidSection1B-accent'>
-                                    <img src={ Splatter } alt="individual therapy" loading="lazy"/>
-                                </div>
-                                <div className='opioidSection1B-accent2'>
-                                    <img src={ Splatter3 } alt="individual therapy" loading="lazy"/>
-                                </div>
-                        </div>
-                    </div>
-
-                    <div className='opioidSection1B-right'>
-                        <h1>Yes, you can recover at home!</h1>
-                        <p>Aware offers a state-of-the-art alternative to traditional rehab care. Our dedicated team helps clients navigate their individual recovery plan using a range of proven tools, from 12-step programs and medically assisted treatment (MAT), to mindfulness, family therapy, nutrition, yoga, and more.</p>
-                    </div>
-                </div>
-
-
-
-
-{/* OPIOID 2 */}
-
                 <div className='opioidSection1-flex'>
                     <div className='opioidSection1-left'>
                         <h2>Drug addiction is heartbreaking.</h2>
@@ -65,6 +39,30 @@ const OpioidSection1 = () => {
                                 <img src={ Splatter4 } alt="individual therapy" loading="lazy"/>
                             </div>
                         </div>
+                    </div>
+                </div>
+
+
+{/* OPIOID 2 */}
+
+
+<div className='opioidSection1B-flex'>
+                    <div className='opioidSection1B-left'>
+                        <div className='opioidSection1B-images'>
+                            <img src={ opioidSection1 } alt="individual therapy" loading="lazy"/>
+
+                                <div className='opioidSection1B-accent'>
+                                    <img src={ Splatter } alt="individual therapy" loading="lazy"/>
+                                </div>
+                                <div className='opioidSection1B-accent2'>
+                                    <img src={ Splatter3 } alt="individual therapy" loading="lazy"/>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div className='opioidSection1B-right'>
+                        <h1>Yes, you can recover at home!</h1>
+                        <p>Aware offers a state-of-the-art alternative to traditional rehab care. Our dedicated team helps clients navigate their individual recovery plan using a range of proven tools, from 12-step programs and medically assisted treatment (MAT), to mindfulness, family therapy, nutrition, yoga, and more.</p>
                     </div>
                 </div>
 

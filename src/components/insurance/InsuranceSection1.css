@@ -10,8 +10,10 @@
 } 
 
 .insuranceSection1-header h1 {
+    font-size: 2rem;
+    padding: .5rem 0;
     text-align: center;
-    text-transform: uppercase;
+    font-family: 'Lilita One', cursive;
 
 }
 

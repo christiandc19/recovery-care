@@ -26,8 +26,8 @@ const Section4 = () => {
 
                 <div className='section4-right'>
                     <h1>Addiction treatment is a daily journey and we count success every day.</h1>
-                    <p>Clients enrolled in Aware's IHAT program achieved an 81% completion rate at 90 days, compared to 32% in traditional programs.</p><br />
-                    <p>At 90 days, more than 78% of participants were drug and alcohol-free based on toxicology screens.</p><br />
+                    <p>Clients enrolled in Aware's IHAT program achieved an 81% completion rate at 90 days, compared to 32% in traditional programs.</p>
+                    <p>At 90 days, more than 78% of participants were drug and alcohol-free based on toxicology screens.</p>
                     <p>During the 6-12 months after completion of Aware Recovery Care treatment, emergency department admissions fell 35% compared to the year before entering Aware.</p>
                 </div>
 

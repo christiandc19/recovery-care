@@ -3,11 +3,14 @@
     background-color: white;
   }
 
+  .opioidSection2-content {
+    padding: 5rem 0 2rem 0;
+  }
 .opioidSection2-flex {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    padding: 5rem 0;
+    
 }
 
 .opioidSection2-left {
@@ -17,10 +20,10 @@
 }
 
 .opioidSection2-left h1 {
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    padding: 1rem;
-    text-align: center;
+    font-size: 2rem;
+    padding: .5rem 0;
+    text-align: left;
+    font-family: 'Lilita One', cursive;
 }
 
 .opioidSection2-left span {
@@ -29,13 +32,12 @@
 
 .opioidSection2-left p {
     font-size: 24px;
-    text-align: justify;
+    text-align: left;
 }
 
 .opioidSection2-flex {
     display: flex;
     justify-content: left;
-    padding: 0 3rem;
 }
 
 
@@ -43,7 +45,6 @@
     padding: 1rem;
     margin: auto;
     width: 100%;
-    height: 100%;
 }
 
 .opioidSection2-images {
@@ -55,7 +56,6 @@
 .opioidSection2-right img {
     width: 100%;
     border-radius: 2rem;
-    padding: 1rem;
 }
 
 .opioidSection2-accent {
@@ -83,22 +83,15 @@
     font-size: 1.6rem;
 }
 
-/* .os2-left ul li span {
-    font-size: 2rem;
-    margin: auto;
-} */
+
 
 @media screen and (max-width:940px) {
     .opioidSection2-left {
-        width: 90%;
+        width: 100%;
     }
 
     .opioidSection2-flex {
         flex-wrap: wrap;
-    }
-
-    .opioidSection2-subheader {
-        width: 90%;
     }
 
 }

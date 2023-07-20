@@ -21,12 +21,8 @@ const Alcohol1 = () => {
                 <div className='alcohol1-flex'>
                     <div className='alcohol1-left'>
                         <h1>If you are struggling, we can help.</h1>
-                        <p>Our In-Home Addiction Treatment (IHAT) program is exactly what it sounds like. We deliver an all-inclusive addiction treatment program directly to you, so you don’t have to leave your home or disrupt your life.</p>
-
-        
-                        <p>You will be assigned a team of IHAT professionals that will come to your home and work around your schedule. Tailored for lasting recovery, the treatment process has 4 phases over the course of up to 12 months. </p>
-               
-                        <p>Our clients’ success stories are the best proof of our model’s effectiveness. So are our current clinical outcomes.</p>
+                        <p>Alcohol doesn’t have to wreak havoc on your health or your relationships.</p>
+                        <p>One in eight American adults meets diagnostic criteria for an alcohol-use disorder. Aware’s Yale University inspired, evidence-based treatment has shown that long-term, in-home care is an effective way to treat chronic alcoholism.</p>
                     </div>
 
 
@@ -65,7 +61,7 @@ const Alcohol1 = () => {
                     <div className='alcohol2-right'>
                         <h1>Life isn’t linear.
                             Neither is our treatment model.</h1>
-                        <p>We tailor our approach to address your needs.</p><br />
+                        <p>We tailor our approach to address your needs.</p>
                         <p>Our In-Home Addiction Treatment (IHAT) based model is supportive, nonjudgmental, and compassionate.</p>
                     </div>
                 </div>

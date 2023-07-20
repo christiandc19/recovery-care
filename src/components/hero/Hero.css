@@ -29,7 +29,7 @@
 }
 
 .hero .content {
-  width: 55%;
+  width: 50%;
   top: 20%;
   left: 5%;
   position: absolute;
@@ -40,7 +40,7 @@
 .hero h1 {
     font-size: 3rem;
     color: rgb(255, 255, 255);
-    font-family: 'Unna', serif;    
+    font-family: 'Lilita One', cursive;
     padding: 1rem 0;
     line-height: 2.5rem;
     letter-spacing: 2px;

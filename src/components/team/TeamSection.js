@@ -18,7 +18,7 @@ const TeamSection = () => {
         <div className='team-section container'>
 
             <div className='team-section-header'>
-                <h1>MEET THE CORE</h1>
+                <h1>Meet The Core</h1>
                 <p>We seek to provide the highest quality care for any addiction situation to create long-term sobriety in a safe and effective environment built on love, acceptance, and tolerance. We work every day to create addict programming that gives you the time and tools needed to live a sober life today, and then vigorously push you to fulfill your dreams tomorrow. </p>
             </div>
 

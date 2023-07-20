@@ -18,20 +18,19 @@
 
 .os1-left h1 {
     font-size: 2rem;
-    text-transform: uppercase;
-    padding: 1rem;
+    padding: .5rem 0;
+    text-align: left;
+    font-family: 'Lilita One', cursive;
 }
 
 .os1-left h2 {
     font-size: 1rem;
     text-transform: uppercase;
-    padding: 0 1rem;
 }
 
 .os1-left p {
     font-size: 18px;
     text-align: justify;
-    padding: 0 1rem;
 }
 
 
@@ -51,7 +50,6 @@
 .os1-right img {
     width: 100%;
     border-radius: 2rem;
-    padding: 1rem;
 }
 
 .os1-accent {
@@ -76,7 +74,7 @@
 
 @media screen and (max-width:940px) {
     .os1-left {
-        width: 90%;
+        width: 100%;
     }
 
     .os1-flex {
@@ -84,7 +82,7 @@
     }
 
     .os1-subheader {
-        width: 90%;
+        width: 100%;
     }
 
     .os1-left h1 {
@@ -97,7 +95,7 @@
 }
 
 .os1-left p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 }

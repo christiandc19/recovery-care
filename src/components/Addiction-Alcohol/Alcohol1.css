@@ -13,28 +13,26 @@
 
 .alcohol1-left {
     width: 100%;
-    margin: auto;
     padding: 1rem;
 }
 
 .alcohol1-left h1 {
     font-size: 2rem;
-    text-transform: uppercase;
-    padding: 1rem;
-    text-align: center;
+    padding: .5rem 0;
+    text-align: left;
+    font-family: 'Lilita One', cursive;
 }
 
 .alcohol1-left p {
     font-size: 18px;
-    text-align: center;
-    padding: 1rem 0;
+    text-align: left;
 }
 
 
 .alcohol1-right {
     padding: 1rem;
     margin: auto;
-    width: 70%;
+    width: 60%;
     height: 100%;
 }
 
@@ -47,7 +45,6 @@
 .alcohol1-right img {
     width: 100%;
     border-radius: 2rem;
-    padding: 1rem;
 }
 
 .alcohol1-accent {
@@ -109,14 +106,14 @@
 
 .alcohol2-right h1 {
     font-size: 2rem;
-    text-transform: uppercase;
-    padding: 2rem 0;
-    text-align: center;
+    padding: .5rem 0;
+    text-align: left;
+    font-family: 'Lilita One', cursive;
 }
 
 .alcohol2-right p {
     font-size: 18px;
-    text-align: center;
+    text-align: left;
 }
 
 .alcohol2-left {
@@ -159,12 +156,10 @@
 
 
 @media screen and (max-width:940px) {
-    .section4-right {
-        width: 90%;
-    }
+
 
     .alcohol2-left {
-        width: 700px;
+        width: 100%;
     }
 
     .alcohol2-flex {
