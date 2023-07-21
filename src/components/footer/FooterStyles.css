@@ -8,16 +8,18 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: rgb(255, 255, 255);
+    background: rgba(22, 22, 22, 0.089);
   }
   
   .footer:before {
     content: '';
     position: absolute;
+    background: url('../../assets/hero-bg-1.jpg') no-repeat center top/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
   }
+  
 
   .footer-content {
     padding: 3rem 0;
@@ -99,10 +101,6 @@
 @media screen and (max-width: 940px) {
     .footer {
         height: 100%;
-    }
-
-    .footer .col-container {
-        grid-template-columns: 3fr 3fr 3fr ;
     }
 
     .footer form {

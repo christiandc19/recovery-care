@@ -1,5 +1,6 @@
 .lovedOnesSection1 {
     background-color: white;
+    
 }
 
 .lovedOnesSection1-content {
@@ -9,9 +10,10 @@
 }
 
 .lovedOnesSection1-content h1 {
-    text-align: center;
-    padding: 2rem 0;
     font-size: 2rem;
+    padding: .5rem 0;
+    text-align: left;
+    font-family: 'Lilita One', cursive;
 }
 
 .lovedOnesSection1-content p {

@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
 
-.lo {
+.lo2 {
     width: 100%;
     height: 50vh;
     position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: rgba(20, 20, 20, 0.274);
+    background: rgba(22, 22, 22, 0.089);
   }
   
-  .lo:before {
+  .lo2:before {
     content: '';
     position: absolute;
     background: url('../../assets/family.jpg') no-repeat center center/cover;
@@ -21,17 +21,41 @@
   }
   
 
-.lo .lo-content {
+.lo2 .lo2-content {
     display: block;
     position: absolute;
     top: 30%;
     padding: 1rem;
+    width: 50%;
 }
 
-.lo h1 {
-    font-size: 4rem;
+.lo2-accent {
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+}
+
+.lo2-accent img {
+    width: 100%;
+    opacity: 0.6;
+
+}
+
+.lo2 h2 {
+    color: rgb(240, 232, 232);
+    font-size: 2.5rem;
     font-family: 'Montserrat', sans-serif;
-    color: white;
+}
+
+.lo2 h1 {
+    font-size: 5rem;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
 
 
@@ -40,7 +64,24 @@
 
 @media screen and (max-width:940px) {
 
-.lo h1 {
+.lo2 h2 {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.lo2 h1 {
     font-size: 3rem;
 }
+
+
+.lo2 .lo2-content {
+    width: 70%;
+}
+}
+
+
+@media screen and (max-width:700px) {
+    .lo2 .lo2-content {
+        width: 100%;
+    }
 }

@@ -5,6 +5,7 @@ import Footer from '../components/footer/Footer'
 import ContactForm from '../components/contact/ContactForm';
 import ContactCards from '../components/contact/ContactCards'
 import LosAngeles1 from '../components/location/LosAngeles1';
+import Metric from '../components/metric/Metric';
 
 
 
@@ -15,6 +16,7 @@ const LosAngelesPage = () => {
            <Navbar /> 
            <LosAngeles />
            <LosAngeles1 />
+           <Metric />
            <ContactForm />
            <ContactCards />
            <Footer />

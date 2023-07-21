@@ -32,36 +32,10 @@ const Footer = () => {
                 <div className="col-container">
 
                     <div className="col">
-                        <h3>Company</h3>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/mission'><p>Our Mission</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/about-us'><p>About Us</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/team'><p>Our Team</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/'><p>Testimonials</p></Link>
-                        </LinkRoll>
-
-                    </div>
-
-
-                    <div className="col">
                         <h3>Navigation</h3>
-                        
+
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/'><p>Home</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/treatment'><p>Programs</p></Link>
                         </LinkRoll>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
@@ -69,23 +43,41 @@ const Footer = () => {
                         </LinkRoll>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/contact'><p>Contact</p></Link>
+                        <Link to='/individual'><p>Programs</p></Link>
+                        </LinkRoll>
+
+                    </div>
+
+
+                    <div className="col">
+                        <h3>Company</h3>
+
+                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
+                        <Link to='/story'><p>Our Story</p></Link>
+                        </LinkRoll>
+
+                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
+                        <Link to='/team'><p>Our Team</p></Link>
+                        </LinkRoll>
+
+                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
+                        <Link to='/faq'><p>FAQs</p></Link>
                         </LinkRoll>
                     </div>
 
 
                     <div className="col">
-                        <h3>SERVICES</h3>
+                        <h3>Locations</h3>
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/mental-health'><p>Mental Health Program</p></Link>
+                        <Link to='/los-angeles'><p>Los Angeles</p></Link>
                         </LinkRoll>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/substance-abuse'><p>Substance Abuse Program</p></Link>
+                        <Link to='/'><p>Location 2</p></Link>
                         </LinkRoll>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/jobs'><p>Employment Assistance</p></Link>
+                        <Link to='/'><p>Location 3</p></Link>
                         </LinkRoll>
                     </div>
 
